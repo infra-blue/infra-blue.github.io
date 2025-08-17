@@ -3,7 +3,5 @@ main:
     url: /posts/
   - title: "CTFs"
     url: /ctf/
-  - title: "Tags"
-    url: /tags/
   - title: "About Me"
     url: /about/
