@@ -1,7 +1,7 @@
 ---
 title: "Posts by categories"
 layout: categories
-permalink: /posts/
+permalink: /categories/
 entries_layout: list
 author_profile: false
 ---

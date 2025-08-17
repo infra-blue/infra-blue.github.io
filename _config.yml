@@ -18,60 +18,41 @@ locale: "en-US"
 copyright: "Leonardo Mirabella"
 url: "https://infra-blue.github.io"
 logo: "/assets/images/logo.png"
-title: Home
+title: infra-blue's cave
 description: >-
   Leonardo Mirabella's personal blog, where I share my knowledge and experiences in cybersecurity, programming, and technology.
 minimal_mistakes_skin: neon
 search: true
 search_full_content: true
+timezone: IT
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 7
-paginate_path: /page:num/
-timezone: IT
+
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  trail:
+    before: 2
+    after: 2
+  
 
 include:
   - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - minimal-mistakes-jekyll.gemspec
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+  - _ctf
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -82,7 +63,7 @@ author:
   name   : "Leonardo Mirabella"
   avatar : "https://avatars.githubusercontent.com/u/91614116"
   location: "Catania, Italy"
-  bio    : "I'm Leonardo, BSc. Computer Science Student @University of Catania, passionate about cybersecurity, embedded systems and metal music."
+#  bio    :
 
   links:
     - label: "GitHub"
@@ -113,16 +94,10 @@ footer:
       icon: "fa-regular fa-envelope"
       url: "mailto:leonardo.mirabella@studium.unict.it"
 
-
-collections:
-  ctf:
-    output: true
-    permalink: /:collection/:path/
-
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
