@@ -4,4 +4,4 @@ title: "About"
 author_profile: true
 ---
 
-WIP
+Download my CV [here](/documents/CV.pdf).
