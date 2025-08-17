@@ -2,6 +2,7 @@
 title: "Blog posts"
 layout: home
 classes: wide
+author_profile: true
 recent_posts_heading: "Recent blog posts"
 pagination:
   enabled: true

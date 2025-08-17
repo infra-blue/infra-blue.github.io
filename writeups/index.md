@@ -2,6 +2,7 @@
 title: "WriteUps"
 layout: home
 classes: wide
+author_profile: true
 recent_posts_heading: "Recent writeups"
 pagination:
   enabled: true

@@ -3,6 +3,7 @@ title: "CTFs"
 layout: home
 classes: wide
 entries_layout: grid
+author_profile: true
 recent_posts_heading: "Recent CTFs"
 pagination:
   enabled: true

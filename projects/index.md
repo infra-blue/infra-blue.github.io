@@ -2,6 +2,7 @@
 title: "Projects"
 layout: home
 classes: wide
+author_profile: true
 recent_posts_heading: "Recent projects"
 pagination:
   enabled: true

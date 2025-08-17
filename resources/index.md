@@ -2,6 +2,7 @@
 title: "Collection of usefull resources"
 layout: home
 classes: wide
+author_profile: true
 recent_posts_heading: ""
 pagination:
   enabled: true
