@@ -36,7 +36,7 @@ pagination:
   enabled: true
   collection: 'posts'
   per_page: 5
-  permalink: '/page/:num/'  # Pages are index.html inside this folder (default)
+  permalink: '/page/:num/'
   title: ':title'
   limit: 0
   sort_field: 'date'
@@ -97,7 +97,7 @@ footer:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -110,13 +110,6 @@ defaults:
   - scope:
       path: "_pages"
       type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _ctf
-  - scope:
-      path: "_ctf"
-      type: ctf
     values:
       layout: single
       author_profile: true
