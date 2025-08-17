@@ -13,40 +13,62 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: infra-blue's cave
-email: leonardo.mirabella@studium.unict.it
+encoding: utf-8
+locale: "en-US"
+copyright: "Leonardo Mirabella"
+
+title: infra-blue.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-# twitter_username: username
-github_username: infra-blue
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: neon
 search: true
+search_full_content: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 7 # amount of posts to show
+paginate: 4
 paginate_path: /page:num/
 timezone: IT
 
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Plugins (previously gems:)
 plugins:
@@ -60,36 +82,31 @@ plugins:
 author:
   name   : "Leonardo Mirabella"
   avatar : "https://avatars.githubusercontent.com/u/91614116"
-  email  : leonardo.mirabella@studium.unict.it
+  location: "Catania, Italy"
   bio    : "My awesome biography constrained to a sentence or two goes here."
+
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infra-blue"
     - label: "HackTheBox"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-solid fa-cube"
       url: "https://app.hackthebox.com/profile/1733848"
+    - label: "CTFTime"
+      icon: "fa-regular fa-font-awesome"
+      url: "https://ctftime.org/user/235248"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/leonardo-mirabella/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/leo_mir_"
+    - label: "Email"
+      icon: "fa-regular fa-envelope"
+      url: "mailto:leonardo.mirabella@studium.unict.it"
 
 footer:
   links:
-    - label: "GitHub"
+    - label: "Source"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/infra-blue"
-    - label: "HackTheBox"
-      icon: "fab fa-fw fa-github"
-      url: "https://app.hackthebox.com/profile/1733848"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/leonardo-mirabella/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/leo_mir_"
+      url: "https://github.com/infra-blue/infra-blue.github.io"
 
 defaults:
   # _posts
@@ -100,9 +117,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
