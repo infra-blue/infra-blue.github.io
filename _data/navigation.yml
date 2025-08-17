@@ -1,5 +1,9 @@
 main:
   - title: "Posts"
-    url: /categories/
+    url: /posts/
+  - title: "CTFs"
+    url: /ctf/
+  - title: "Tags"
+    url: /tags/
   - title: "About Me"
     url: /about/
