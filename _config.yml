@@ -13,6 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+plugins:
+  - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 encoding: utf-8
 locale: "en-US"
 copyright: "Leonardo Mirabella"
@@ -26,10 +34,8 @@ search: true
 search_full_content: true
 timezone: IT
 
-# Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:categories/:title/
 
 pagination:
@@ -48,16 +54,6 @@ pagination:
 
 include:
   - _pages
-  - _ctf
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-paginate-v2
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
 
 author:
   name   : "Leonardo Mirabella"
@@ -106,6 +102,8 @@ defaults:
       comments: false
       share: false
       related: true
+      sidebar:
+        nav: site
   # _pages
   - scope:
       path: "_pages"
@@ -113,6 +111,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+      sidebar:
+        nav: site
 
 category_archive:
   type: liquid

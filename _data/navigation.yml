@@ -1,7 +1,17 @@
 main:
-  - title: "CTFs"
-    url: /ctf/
-  - title: "Writeups"
-    url: /writeups/
   - title: "About Me"
     url: /about/
+
+site:
+  - title: "Explore more:"
+    children:
+      - title: "Blog"
+        url: /blog/
+      - title: "Resources"
+        url: /resources/
+      - title: "Projects"
+        url: /projects/
+      - title: "CTFs"
+        url: /ctf/
+      - title: "Writeups"
+        url: /writeups/

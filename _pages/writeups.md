@@ -1,8 +1,12 @@
 ---
-title: "WriteUps"
+title: "CTFs and challenges writeUps"
+intro:
 layout: pages
 classes: wide
 author_profile: true
+
+permalink: /writeups/
+
 pagination:
   enabled: true
   collection: 'posts'
@@ -15,4 +19,7 @@ pagination:
   trail:
     before: 3
     after: 3
+sidebar:
+  nav: site
 ---
+{% include feature_row id="intro" %}
