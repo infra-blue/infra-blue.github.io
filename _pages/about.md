@@ -1,10 +1,9 @@
 ---
-layout: single
 permalink: /about/
-title: "About Me"
+title: "$ whoami"
 author_profile: true
 ---
-<h2>What I use every day:</h2>
+# What I use every day:
 
 <p align="center">
     <img
@@ -12,8 +11,8 @@ author_profile: true
     />
 </p>
 
-<h2>I'm Leonardo, BSc. Computer Science Student @University of Catania.</h2>
+## About me
 
-<p align="left">Born in 2002, passionate about binary security, web security, embedded systems and metal music. I began my journey in 2014, exploring the world of hacking and modding gaming consoles. In 2024, I participated in CyberChallengeIT, completing the program but deciding to forgo the official student spot. In 2025, I participated in CyberChallengeIT again, placing first in the local competition at University of Catania and participating in the national competition in Turin in July 2025.</p>
+<p align="left">I'm Leonardo, BSc. Computer Science Student @University of Catania. Born in 2002, passionate about binary security, web security, embedded systems and metal music. I began my journey in 2014, exploring the world of hacking and modding gaming consoles. In 2024, I participated in CyberChallengeIT, completing the program but deciding to forgo the official student spot. In 2025, I participated in CyberChallengeIT again, placing first in the local competition at University of Catania and participating in the national competition in Turin in July 2025.</p>
 
 [Download my CV]({{ "/assets/documents/CV.pdf" | relative_url }}){: .btn .btn--primary }

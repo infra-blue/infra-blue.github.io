@@ -3,15 +3,16 @@
    ========================================================================== */
 
 /* Colors */
-$background-color: #000 !default;
-$text-color: #00f0f0 !default;
-$primary-color: #2e93ff !default;
+$background-color: #1f1f1f !default;
+$text-color: #cccccc !default;
+$primary-color: #0078d4 !default;
+$pagination-background-color: mix($primary-color, #000, 70%) !default;
 $border-color: mix(#fff, $background-color, 20%) !default;
 $code-background-color: mix(#000, $background-color, 15%) !default;
 $code-background-color-dark: mix(#000, $background-color, 20%) !default;
 $form-background-color: mix(#000, $background-color, 15%) !default;
 $footer-background-color: mix($primary-color, #000, 50%) !default;
-$link-color: mix(#000, $primary-color, 15%) !default;
+$link-color: $primary-color !default;
 $link-color-hover: mix(#fff, $link-color, 25%) !default;
 $link-color-visited: mix(#000, $link-color, 25%) !default;
 $masthead-link-color: $text-color !default;
@@ -28,7 +29,7 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 /* next/previous buttons */
 .pagination--pager {
   color: $text-color;
-  background-color: $primary-color;
+  background-color: $pagination-background-color;
   border-color: transparent;
 
   &:visited {
