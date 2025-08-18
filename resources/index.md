@@ -1,9 +1,8 @@
 ---
 title: "Collection of usefull resources"
-layout: home
+layout: pages
 classes: wide
 author_profile: true
-recent_posts_heading: ""
 pagination:
   enabled: true
   collection: 'posts'

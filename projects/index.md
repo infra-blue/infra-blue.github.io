@@ -1,9 +1,8 @@
 ---
 title: "Projects"
-layout: home
+layout: pages
 classes: wide
 author_profile: true
-recent_posts_heading: "Recent projects"
 pagination:
   enabled: true
   collection: 'posts'

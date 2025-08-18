@@ -1,10 +1,9 @@
 ---
 title: "CTFs"
-layout: home
+layout: pages
 classes: wide
 entries_layout: grid
 author_profile: true
-recent_posts_heading: "Recent CTFs"
 pagination:
   enabled: true
   collection: 'posts'

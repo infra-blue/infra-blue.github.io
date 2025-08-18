@@ -1,10 +1,4 @@
 main:
-  - title: "Blog"
-    url: /blog/
-  - title: "Resources"
-    url: /resources/
-  - title: "Projects"
-    url: /projects/
   - title: "CTFs"
     url: /ctf/
   - title: "Writeups"
