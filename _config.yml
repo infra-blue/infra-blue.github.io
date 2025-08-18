@@ -32,12 +32,12 @@ description: >-
 minimal_mistakes_skin: neon
 search: true
 search_full_content: true
-timezone: IT
+timezone: Europe/Rome
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
-
+breadcrumbs: true
 pagination:
   enabled: true
   collection: 'posts'
@@ -114,9 +114,9 @@ defaults:
       sidebar:
         nav: site
 
-category_archive:
-  type: liquid
-  path: /categories/
+#category_archive:
+#  type: liquid
+#  path: /categories/
 tag_archive:
   type: liquid
   path: /tags/

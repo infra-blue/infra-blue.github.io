@@ -5,13 +5,13 @@ main:
 site:
   - title: "Explore more:"
     children:
-      - title: "Blog"
+      - title: "> Blog"
         url: /blog/
-      - title: "Resources"
+      - title: "> Resources"
         url: /resources/
-      - title: "Projects"
+      - title: "> Projects"
         url: /projects/
-      - title: "CTFs"
+      - title: "> CTFs"
         url: /ctf/
-      - title: "Writeups"
+      - title: "> Writeups"
         url: /writeups/

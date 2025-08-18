@@ -1,5 +1,5 @@
 ---
-title: "CTFs and challenges writeUps"
+title: "CTFs and challenges writeups"
 intro:
 layout: pages
 classes: wide
