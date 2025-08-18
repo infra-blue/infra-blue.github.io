@@ -14,4 +14,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-algolia"
   gem "jekyll-paginate-v2"
+  gem "jekyll-paginate"
 end
