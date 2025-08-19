@@ -6,8 +6,7 @@ author_profile: true
 
 header:
   overlay_image: /assets/images/home.jpg
-  caption: "Location: **Pantheon**"
-excerpt: "You must always act, speak, and think as if that moment were the last of your life."
+  caption: "Location: **Pantheon, Rome**"
 intro:
 
 pagination:

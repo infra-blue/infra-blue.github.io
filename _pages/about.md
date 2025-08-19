@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "$ whoami"
+date: 2025-08-19T18:43
 author_profile: true
 ---
 # What I use every day:
