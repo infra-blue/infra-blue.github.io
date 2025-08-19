@@ -24,6 +24,7 @@ plugins:
 encoding: utf-8
 locale: "en-US"
 copyright: "Leonardo Mirabella"
+copyright_url: "https://github.com/infra-blue"
 url: "https://infra-blue.github.io"
 logo: "/assets/images/logo.png"
 title: infra-blue's cave
@@ -33,6 +34,7 @@ minimal_mistakes_skin: neon
 search: true
 search_full_content: true
 timezone: Europe/Rome
+date_format: "%-d %B, %Y - %H:%M"
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -59,7 +61,7 @@ author:
   name   : "Leonardo Mirabella"
   avatar : "https://avatars.githubusercontent.com/u/91614116"
   location: "Catania, Italy"
-  bio    : "I need some 0xc0ffee"
+  bio    : "I need some 0xc0ffee11"
 
   links:
     - label: "GitHub"
@@ -102,6 +104,7 @@ defaults:
       comments: false
       share: false
       related: true
+      show_date: true
       sidebar:
         nav: site
   # _pages
