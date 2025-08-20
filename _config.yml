@@ -60,10 +60,13 @@ include:
 author:
   name   : "Leonardo Mirabella"
   avatar : "https://avatars.githubusercontent.com/u/91614116"
-  location: "Catania, Italy"
-  bio    : "I need some 0xc0ffee11"
+  #location: "Catania, Italy"
+  bio    : "I need some 0xc0ffee."
 
   links:
+    - label: "Catania, Italy"
+      icon: "fa-solid fa-location-dot"
+      url: "https://maps.app.goo.gl/nonGvetTKWpNPfC49"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infra-blue"
@@ -79,6 +82,9 @@ author:
     - label: "Telegram"
       icon: "fab fa-fw fa-telegram"
       url: "https://t.me/infra_blue"
+    - label: "MakerWorld"
+      icon: "fa-solid fa-cubes"
+      url: "https://makerworld.com/@infra_blue"
     - label: "Spotify"
       icon: "fab fa-fw fa-spotify"
       url: "https://open.spotify.com/user/leonardofiero"

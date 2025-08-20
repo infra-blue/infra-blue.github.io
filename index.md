@@ -6,7 +6,7 @@ author_profile: true
 
 header:
   overlay_image: /assets/images/home.jpg
-  caption: "Location: **Pantheon, Rome**"
+  caption: "Location: [**Pantheon, Rome**](https://maps.app.goo.gl/KeCi4cyJabrUZ12o9)"
 intro:
 
 pagination:

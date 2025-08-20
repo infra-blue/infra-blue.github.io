@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Personal projects"
 intro:
 layout: pages
 classes: wide

@@ -1,5 +1,6 @@
-[My personal website](https://infra-blue.github.io)
+# infra-blue.github.io
+[My personal website](https://infra-blue.github.io).
 
-Built with jekyll and [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes/docs/pages/)
+Built with Jekyll and [Minimal-Mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-Made with love
+Docs: [Jekill](https://jekyllrb.com/docs/), [Minimal-Mistakes](https://mmistakes.github.io/minimal-mistakes/docs/pages/).
