@@ -64,9 +64,9 @@ author:
   bio    : "I need some 0xc0ffee."
 
   links:
-    - label: "Catania, Italy"
-      icon: "fa-solid fa-location-dot"
-      url: "https://maps.app.goo.gl/nonGvetTKWpNPfC49"
+#    - label: "Catania, Italy"
+#      icon: "fa-solid fa-location-dot"
+#      url: "https://maps.app.goo.gl/nonGvetTKWpNPfC49"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/infra-blue"
