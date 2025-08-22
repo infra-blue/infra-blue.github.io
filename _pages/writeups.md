@@ -1,9 +1,8 @@
 ---
 title: "CTFs and challenges writeups"
-intro:
-layout: pages
+layout: home
 classes: wide
-author_profile: true
+author_profile: false
 
 permalink: /writeups/
 
@@ -22,4 +21,3 @@ pagination:
 sidebar:
   nav: site
 ---
-{% include feature_row id="intro" %}

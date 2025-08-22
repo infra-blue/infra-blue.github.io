@@ -1,10 +1,9 @@
 ---
 title: "Played CTFs"
-intro:
-layout: pages
+layout: home
 classes: wide
 entries_layout: grid
-author_profile: true
+author_profile: false
 
 permalink: /ctf/
 
@@ -23,4 +22,3 @@ pagination:
 sidebar:
   nav: site
 ---
-{% include feature_row id="intro" %}
