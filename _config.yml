@@ -35,6 +35,7 @@ search: true
 search_full_content: true
 timezone: Europe/Rome
 date_format: "%-d %B, %Y - %H:%M"
+repository: "infra-blue/infra-blue.github.io"
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -98,6 +99,9 @@ footer:
       icon: "fa-solid fa-location-dot"
       url: "https://maps.app.goo.gl/nonGvetTKWpNPfC49"
 
+atom_feed:
+  hide: true
+
 defaults:
   # _posts
   - scope:
@@ -129,3 +133,10 @@ defaults:
 tag_archive:
   type: liquid
   path: /tags/
+
+compress_html:
+  clippings: all
+  comments: all
+  blanklines: false
+  startings: all
+  endings: all
